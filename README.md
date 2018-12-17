@@ -55,3 +55,9 @@ To launch the application's tests:
       - `sudo webdriver-manager start`
       - `npm start`
       - `npm test`
+      
+ **Continous Delivery Diagram**
+ ![delivery](Delivery-Diagram.png)
+
+ 
+
