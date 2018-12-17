@@ -43,7 +43,8 @@ The following test cases were created using Protractor.
 To launch the application's tests:
 
     Make sure you have protractortest installed:
-            `sudo npm install -g protractor`
+      - `sudo npm install -g protractor`
+            
     Make sure you have installed webdriver manager:
       - 'sudo npm install -g webdriver-manager'
       - 'sudo webdriver-manager update'
