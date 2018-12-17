@@ -25,6 +25,7 @@ _Mobile_
 2. Run `grunt`
 3. If running the app locally, make sure Mongo is running `mongod`
     In Shell:
+      
       `mongoimport -d targetcasestudy -c catalog item-data.json`
 
 5. Start the server by running `npm start`
@@ -42,19 +43,19 @@ The following test cases were created using Protractor.
 To launch the application's tests:
 
     Make sure you have protractortest installed:
-      - `sudo npm install -g protractor`
+      - 'sudo npm install -g protractor'
 
     Make sure you have installed webdriver manager:
-      - `sudo npm install -g webdriver-manager`
-      - `sudo webdriver-manager update`
+      - 'sudo npm install -g webdriver-manager'
+      - 'sudo webdriver-manager update'
 
     Make sure you have installed httpster:
-      - ` sudo npm -g install httpster`
+      - 'sudo npm -g install httpster'
 
     After installation, run these commands in 3 different terminals:
-      - `sudo webdriver-manager start`
-      - `npm start`
-      - `npm test`
+      - 'sudo webdriver-manager start'
+      - 'npm start'
+      - 'npm test'
       
  **Continous Delivery Diagram**
  ![delivery](Delivery-Diagram.png)
